@@ -5,9 +5,6 @@
   <engines>
     <engine name="cordova" version=">=3.4.0"/>
   </engines>
-  <js-module src="www/www.min.js" name="QRScanner">
-    <clobbers target="QRScanner" />
-  </js-module>
   <platform name="android">
     <config-file target="res/xml/config.xml" parent="/*">
       <feature name="QRScanner">
